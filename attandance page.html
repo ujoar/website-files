@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>attandance</title>
+        <link rel="icon" href="attandance icon.png" type="image">
+        <link rel="stylesheet" href="attandance page.css" type="text/css">
+        <script>
+             function myFunction1()
+        {
+            location.href="attandance page.html" 
+        }
+        function myFunction2()
+        {
+            location.href="salary status.html"
+        }
+        function myFunction3()
+        {
+            location.href="employee biodata.html" 
+        }
+        function myFunction4()
+        {
+            location.href="about us.html"
+        }
+        function myFunction5()
+        {
+            location.href="contact us.html" 
+        }
+        function myFunction()
+        {
+            location.href="new home page.html"
+        }
+        function check_status()
+        {
+            var attandance_in_string= document.getElementById("id_attandance").value;
+
+            var attandance= parseInt(attandance_in_string);
+
+            if (attandance>=88015 & attandance<=88018)
+            {
+
+                document.getElementById("id_status").innerHTML="Last Month : 28 days";
+                id_statusElement.style="color:#090;";
+            }
+            else if(attandance >=88019 && attandance<=88022)
+            {
+                
+                document.getElementById("id_status").innerHTML="Last Month : 31 days";
+            }
+            else
+            {
+                document.getElementById("id_status").innerHTML="Card number does not exists";
+            }
+        }
+
+        </script>
+    </head>
+<body bgcolor="green">
+    <marquee behavior="repeated" direction="right" id="scrool">Welcome</marquee>
+    <table border="0">
+        <td id="a">
+    <img src="logo.png" alt="center" id="logo" width="350px" height="100px" itemid="a1">
+        </td>
+        <td id="b">
+    <button id="b1" onclick="myFunction()">
+        <img src="home icon.png" alt="" id="iconh"><br>
+        home
+    </button>
+        </td>
+        <td id="c">
+    <button id="c1" onclick="myFunction1()">
+        <img src="attandance icon.png" alt="" id="iconatt"><br>
+        attandance
+    </button>
+        </td>
+        <td id="d">
+    <button id="d1" onclick="myFunction2()">
+        <img src="salary status icon.png" alt="" id="iconss"><br>
+        Salary status
+    </button>
+        </td>
+    <td id="e">
+        <button id="e1" onclick="myFunction3()">
+            <img src="biodate icon.png" alt="" id="iconbd"><br>
+            employee bio-data
+        </button>
+    </td>
+    <td id="f">
+        <button id="f1" onclick="myFunction4()">
+            <img src="about us icon.png" alt="" id="iconab"><br>
+            About us</button>
+    </td>
+    <td id="g">
+        <button id="g1" onclick="myFunction5()">
+            <img src="contact us icon.jpeg" alt="" id="iconc"><br>
+            Contact us</button>
+    </td>
+    </table>
+    <hr width="40%" color="blue" height="50px" >
+    <center>
+    <h1>Attandance</h1>
+    </center>
+    <details>
+        <Summary>88015</Summary>
+        <h6>Name of the Employee : Employee 1</h6>
+        <ul type="disc">
+            <li>October 2023   : 28 days</li>
+            <li>September 2023 : 26 days</li>
+            <li>August 2023    : 30 days</li>
+            <li>July 2023      : 31 days</li>
+            <li>June 2023      : 20 days</li>
+            <li>May 2023       : 5 days</li>
+        </ul>
+    </details>
+    <details>
+        <Summary>88016</Summary>
+        <h6>Name of the Employee : Employee 2</h6>
+        <ul type="disc">
+            <li>October 2023   : 27 days</li>
+            <li>September 2023 : 29 days</li>
+            <li>August 2023    : 15 days</li>
+            <li>July 2023      : 28 days</li>
+            <li>June 2023      : 30 days</li>
+            <li>May 2023       : 31 days</li>
+        </ul>
+    </details>
+    <details>
+        <Summary>88017</Summary>
+        <h6>Name of the Employee : Employee 3</h6>
+        <ul type="disc">
+            <li>October 2023   : 28 days</li>
+            <li>September 2023 : 30 days</li>
+            <li>August 2023    : 31 days</li>
+            <li>July 2023      : 26 days</li>
+            <li>June 2023      : 22 days</li>
+            <li>May 2023       : 29 days</li>
+        </ul>
+    </details>
+    <details>
+        <Summary>88018</Summary>
+        <h6>Name of the Employee : Employee 4</h6>
+        <ul type="disc">
+            <li>October 2023   : 31 days</li>
+            <li>September 2023 : 26 days</li>
+            <li>August 2023    : 28 days</li>
+            <li>July 2023      : 23 days</li>
+            <li>June 2023      : 19 days</li>
+            <li>May 2023       : 14 days</li>
+        </ul>
+    </details>
+    <details>
+        <Summary>88019</Summary>
+        <h6>Name of the Employee : Employee 5</h6>
+        <ul type="disc">
+            <li>October 2023   : 17 days</li>
+            <li>September 2023 : 28 days</li>
+            <li>August 2023    : 30 days</li>
+            <li>July 2023      : 31 days</li>
+            <li>June 2023      : 27 days</li>
+            <li>May 2023       : 29 days</li>
+        </ul>
+    </details>
+    <details>
+        <Summary>88020</Summary>
+        <h6>Name of the Employee : Employee 6</h6>
+        <ul type="disc">
+            <li>October 2023   : 19 days</li>
+            <li>September 2023 : 26 days</li>
+            <li>August 2023    : 31 days</li>
+            <li>July 2023      : 16 days</li>
+            <li>June 2023      : 25 days</li>
+            <li>May 2023       : 16 days</li>
+        </ul>
+    </details>
+    <details>
+        <Summary>88021</Summary>
+        <h6>Name of the Employee : Employee 7</h6>
+        <ul type="disc">
+            <li>October 2023   : 11 days</li>
+            <li>September 2023 : 26 days</li>
+            <li>August 2023    : 30 days</li>
+            <li>July 2023      : 31 days</li>
+            <li>June 2023      : 20 days</li>
+            <li>May 2023       : 30 days</li>
+        </ul>
+    </details>
+    <details>
+        <Summary>88022</Summary>
+        <h6>Name of the Employee : Employee 8</h6>
+        <ul type="disc">
+            <li>October 2023   : 13 days</li>
+            <li>September 2023 : 26 days</li>
+            <li>August 2023    : 30 days</li>
+            <li>July 2023      : 31 days</li>
+            <li>June 2023      : 20 days</li>
+            <li>May 2023       : 28 days</li>
+        </ul>
+    </details>
+    
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+body
+{
+ font-family: 'lucida sans';
+ font-size: 30px;
+ background-color: skyblue;
+ margin: 0;
+ color: blue;
+
+}
+table
+{
+    border: hidden;
+    background-color: skyblue;
+    color: aquamarine;
+}
+#logo
+{
+    align-self: middle;
+    width: 600px;
+    height: 140px;
+    vertical-align: middle;
+    align-items: center;
+}
+table
+{
+    width: 100%;
+    height: 90px;
+}
+#a
+{
+    width: 600px;
+    height: 100px;
+    vertical-align: middle;
+}
+#a1
+{
+    align-items: center;
+    vertical-align: middle;
+    width: 350px;
+}
+#b
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#b1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 15px 50px 30px;
+    background-color: #73C2FB;
+}
+#c
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center; 
+}
+#c1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 15px 50px;
+    background-color: #73C2FB;
+}
+#d
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#d1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 15px 50px;
+    background-color: #73C2FB;
+}
+#e
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#e1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 15px 50px;
+    background-color: #73C2FB;
+}
+#f
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#f1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 15px 50px;
+    background-color: #73C2FB;
+}
+#g
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#g1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 30px 50px 15px;
+    background-color: #73C2FB;
+}
+u
+{
+    font-size: 35px;
+    color: blueviolet;
+}
+a
+{
+    color: brown;
+    font-family: 'Lucida Sans Regular';
+    font-size: 55px;
+}
+h1
+{
+    font-family: 'lucida sans regular';
+    font-size: 98px;
+    color: darkmagenta;
+}
+h2
+{
+    font-family: 'lucida sans regular';
+    font-size: 80px;
+    color: darkmagenta;
+}
+h3
+{
+    font-family: 'lucida sans regular';
+    font-size: 70px;
+    color: darkmagenta;
+}
+h4
+{
+    font-family: 'lucida sans regular';
+    font-size: 65px;
+    color: darkmagenta;
+}
+h5
+{
+    font-family: 'lucida sans regular';
+    font-size: 60px;
+    color: darkmagenta;
+}
+p
+{
+    font-size: 50px;
+}
+#iconh
+{
+    height: 60px;
+    align-items: center;
+}
+#iconatt
+{
+    height: 60px;
+    align-items: center;
+}
+#iconss
+{
+    height: 60px;
+    align-items: center;
+}
+#iconbd
+{
+    height: 60px;
+    align-items: center;
+}
+#iconab
+{
+    height: 60px;
+    align-items: center;
+}
+#iconc
+{
+    height: 60px;
+    align-items: center;
+}

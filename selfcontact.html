@@ -1,0 +1,157 @@
+<html>
+<head>
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://placehold.co/1920x1080');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .navbar {
+            background-color: rgba(90, 45, 44, 0.9);
+            padding: 10px 0;
+            color: white;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .navbar ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .contact-form {
+            text-align: center;
+            padding: 50px 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+            width: 50%;
+            border-radius: 10px;
+        }
+        .contact-form h2 {
+            color: #ff6f61;
+            font-size: 32px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer .column {
+            display: inline-block;
+            vertical-align: top;
+            width: 23%;
+            margin: 0 1%;
+        }
+        .footer h3 {
+            color: #ff6f61;
+            font-size: 18px;
+        }
+        .footer p, .footer ul {
+            color: #ccc;
+            font-size: 14px;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer ul li {
+            margin: 5px 0;
+        }
+        .footer ul li a {
+            color: #ccc;
+            text-decoration: none;
+        }
+        .footer ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Coffee Shop</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name"><br>
+            <input type="email" name="email" placeholder="Email"><br>
+            <textarea name="message" placeholder="Message" rows="5"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="column">
+            <h3>About</h3>
+            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u</p>
+        </div>
+        <div class="column">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Useful Link</h3>
+            <ul>
+                <li><a href="#">Adipiscing</a></li>
+                <li><a href="#">Elit, sed do</a></li>
+                <li><a href="#">Eiusmod</a></li>
+                <li><a href="#">Tempor</a></li>
+                <li><a href="#">Incididunt</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Address : Loram Ipsum</p>
+            <p><i class="fas fa-phone"></i> Call : +01 1234567890</p>
+            <p><i class="fas fa-envelope"></i> Email : demo@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>

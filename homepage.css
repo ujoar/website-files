@@ -1,0 +1,303 @@
+body
+{
+ font-family: 'lucida sans';
+ font-size: 30px;
+ background-color: skyblue;
+}
+table
+{
+    border: hidden;
+    background-color: skyblue;
+    color: aquamarine;
+}
+#logo
+{
+    align-self: middle;
+    width: 600px;
+    height: 140px;
+    vertical-align: middle;
+    align-items: center;
+}
+#scrool
+{
+    font-family: 'Lucida Sans Regular';
+    height: 50px;
+}
+table
+{
+    width: 100%;
+    height: 90px;
+}
+#a
+{
+    width: 600px;
+    height: 100px;
+    vertical-align: middle;
+}
+#a1
+{
+    align-items: center;
+    vertical-align: -webkit-baseline-middle;
+    width: 350px;
+}
+#b
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#b1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #73c2f7;
+    border-radius: 15px 50px 30px;
+}
+#c
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center; 
+}
+#c1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #73c2f7;
+    border-radius: 15px 50px;
+}
+#d
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#d1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #73c2f7;
+    border-radius: 15px 50px;
+}
+#e
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#e1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #73c2f7;
+    border-radius: 15px 50px;
+}
+#f
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#f1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #73c2f7;
+    border-radius: 15px 50px;
+}
+#g
+{
+    width: 145px;
+    height: 110px;
+    vertical-align: middle;
+    text-align: center;
+}
+#g1
+{
+    width: 145px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #73c2f7;
+    border-radius: 30px 50px 15px;
+}
+#line
+{
+    height: 50px;
+    color: blue;
+}
+.showSlide 
+{
+    display: none
+}
+.showSlide img 
+{
+    width: 100%;
+}
+.slidercontainer 
+{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.left, .right 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.right 
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.left:hover, .right:hover 
+{
+    background-color: rgba(115, 115, 115, 0.8);
+}
+.content 
+{
+    color: #eff5d4;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.active 
+{
+    background-color: #717171;
+}
+/* Fading animation */
+.fade 
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade 
+{
+    from 
+    {
+        opacity: .4
+    }
+    to 
+    {
+        opacity: 1
+    }
+}
+
+@keyframes fade 
+{
+    from 
+    {
+        opacity: .4
+    }
+    to 
+    {
+        opacity: 1
+    }
+}
+#bottom
+{
+    align-items: center;
+    color: aquamarine;
+    width: 30%;
+    height: 50px;
+}
+#b_1a
+{
+    width: 50%;
+    height: 50px;
+    align-items: last baseline;
+    vertical-align: top;
+    align-items: middle;
+}
+#b_2a
+{
+    width: 50%;
+    height: 50px;
+    align-items: middle;
+    vertical-align: top;
+}
+#b_1b
+{
+    vertical-align: top;
+    align-self: right;
+    height: 60px;
+    align-items: middle;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lucida Sans Regular';
+    font-size: 25px;
+    background-color: #73c2f7;
+    border-radius: 15px 50px;
+}
+#b_2b
+{
+    vertical-align: top;
+    height: 60px;
+    align-self: left;
+    align-items: left;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lucida Sans Regular';
+    font-size: 40px;
+    background-color: #73c2f7;
+    border-radius: 15px 50px;
+}
+#iconh
+{
+    height: 60px;
+    align-items: center;
+}
+#iconatt
+{
+    height: 60px;
+    align-items: center;
+}
+#iconss
+{
+    height: 60px;
+    align-items: center;
+}
+#iconbd
+{
+    height: 60px;
+    align-items: center;
+}
+#iconab
+{
+    height: 60px;
+    align-items: center;
+}
+#iconc
+{
+    height: 60px;
+    align-items: center;
+}

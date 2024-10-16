@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Consultation Form</title>
+        <link rel="stylesheet" href="consultation form.css">
+        <script>
+            function myFunction()
+            {
+                location.href="new home page.html"
+            }
+        </script>
+    </head>
+    <body>
+        <button id="hb" onclick="myFunction()">
+            <img src="home icon.png" alt="" id="home">
+            Home
+        </button>
+        <center>
+            <form action="html_form_action" method="get">
+                <h1>Please fill the Consultation Form We will contact you soon</h1>
+               <table border="0">
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="first name" size="40" maxlength="50" placeholder="Enter your First Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="last name" size="40" maxlength="50" placeholder="Enter your Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="qualification">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="qualification" size="40" maxlength="50" placeholder="Enter your qualification">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Experience">Experience</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Experience" size="40" maxlength="50" placeholder="Enter your Experience">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age">Age</label>
+                    </td>
+                    <td>
+                        <input type="number" name="age" size="40" maxlength="50" placeholder="Enter your age">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="contact details">Contact Details</label>
+                    </td>
+                    <td>
+                        <textarea name="Contact details" id="cd" placeholder="Enter your mobile number and address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id_sb>
+                        <input type="submit" value="Submit" id="id_sub">
+                    </td>
+                </tr>
+               </table>
+            </form>
+        </center>
+    </body>
+</html>

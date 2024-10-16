@@ -1,0 +1,59 @@
+body
+{
+    background-color: skyblue;
+    color: blueviolet;
+    font-size: 35px;
+    font-family: 'Lucida Sans Regular';
+}
+h1
+{
+    font-family: 'Lucida Sans Regular';
+    font-size: 40px;
+    color: blue;
+}
+#hb
+{
+    background-color: skyblue;
+    width: 70px;
+    height: 70px;
+    border-style: hidden;
+}
+#home
+{
+    background-color: skyblue;
+    width: 40px;
+    height: 40px;
+}
+table
+{
+    height: 600px;
+    width: 400px;
+}
+input 
+{
+    height: 45px;
+    font-family: 'Lucida Sans Regular';
+    font-size: 35px;
+    background-color: #73c2f7;
+}
+#cd
+{
+    height: 200px;
+    width: 350px;
+    font-size: 35px;
+    font-family:'Lucida Sans Regular';
+    background-color: #73c2f7;
+}
+#id_sb
+{
+    align-items: center;
+}
+#id_sub
+{
+    font-family: 'Lucida Sans Regular';
+    font-size: 35px;
+    align-self: center;
+    border-radius: 15px 50px;
+    background-color: #73c2f7;
+    height: 50px;
+}

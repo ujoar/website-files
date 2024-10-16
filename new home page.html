@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Home</title>
+       <link rel="icon" href="home icon.png" type="image">
+       <link rel="stylesheet" href="homepage.css" type="text/css">
+       <script>
+        
+        function myFunction1()
+        {
+            location.href="attandance page.html" 
+        }
+        function myFunction2()
+        {
+            location.href="salary status.html"
+        }
+        function myFunction3()
+        {
+            location.href="employee biodata.html" 
+        }
+        function myFunction4()
+        {
+            location.href="about us.html"
+        }
+        function myFunction5()
+        {
+            location.href="contact us.html" 
+        }
+        function myFunction()
+        {
+            location.href="new home page.html"
+        }
+        function myFunction6()
+        {
+            location.href="consultation form.html"
+        }
+        function myFunction7()
+        {
+            location.href="FAQ.html"
+        }
+        
+        var slide_index = 1;
+        displaySlides(slide_index);
+
+        function nextSlide(n) 
+        {
+            displaySlides(slide_index += n);
+        }
+
+        function currentSlide(n) 
+        {
+            displaySlides(slide_index = n);
+        }
+
+        function displaySlides(n) 
+        {
+            var i;
+            var slides = document.getElementsByClassName("showSlide");
+            if (n > slides.length) 
+            {
+               slide_index = 1 
+            }
+            if (n < 1) 
+            {
+                slide_index = slides.length 
+            }
+            for (i = 0; i < slides.length; i++) 
+            {
+                slides[i].style.display = "none";
+            }
+            slides[slide_index - 1].style.display = "block";
+        }
+       
+       </script>
+    </head>
+    <body>
+        <marquee behavior="repeated" direction="right" id="scrool">Welcome</marquee>
+        <table border="0">
+            <td id="a">
+        <img src="logo.png" alt="center" id="logo" width="350px" height="100px" itemid="a1">
+            </td>
+            <td id="b">
+        <button id="b1" onclick="myFunction()">
+            <img src="home icon.png" alt="" id="iconh"><br>
+            home
+        </button>
+            </td>
+            <td id="c">
+        <button id="c1" onclick="myFunction1()">
+            <img src="attandance icon.png" alt="" id="iconatt"><br>
+            attandance
+        </button>
+            </td>
+            <td id="d">
+        <button id="d1" onclick="myFunction2()">
+            <img src="salary status icon.png" alt="" id="iconss"><br>
+            Salary status
+        </button>
+            </td>
+        <td id="e">
+            <button id="e1" onclick="myFunction3()">
+                <img src="biodate icon.png" alt="" id="iconbd"><br>
+                employee bio-data
+            </button>
+        </td>
+        <td id="f">
+            <button id="f1" onclick="myFunction4()">
+                <img src="about us icon.png" alt="" id="iconab"><br>
+                About us
+            </button>
+        </td>
+        <td id="g">
+            <button id="g1" onclick="myFunction5()">
+                <img src="contact us icon.jpeg" alt="" id="iconc"><br>
+                Contact us
+            </button>
+        </td>
+        </table>
+        <hr width="40%" id="line" color="sky blue">  
+        <div class="slidercontainer">
+            <div class="showSlide fade">
+                <img src="con img1 resized.jpg" />
+                <div class="content"></div>
+            </div>
+            <div class="showSlide fade">
+                <img src="con img2 resized.jpg" />
+                <div class="content"></div>
+            </div>
+    
+            <div class="showSlide fade">
+                <img src="con img3.jpeg" />
+                <div class="content"></div>
+            </div>
+            <div class="showSlide fade">
+                <img src="con img4 resized.jpg" />
+                <div class="content"></div>
+            </div>
+            <!-- Navigation arrows -->
+            <a class="left" onclick="nextSlide(-1)">&larr;</a>
+            <a class="right" onclick="nextSlide(1)">&rarr;</a>
+        </div>
+        <br><br>
+        <center>
+        <table border="0" id="bottom">
+            <td id="b_1a">
+                <button id="b_1b" onclick="myFunction6()">Consultation Form</button>
+            </td>
+            <td id="b_2a">
+                <button id="b_2b" onclick="myFunction7()">FAQ</button>
+            </td>
+        </table>
+        </center>       
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
